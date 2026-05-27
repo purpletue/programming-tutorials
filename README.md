@@ -6,30 +6,30 @@ A curated collection of personal notes, syntax references, and snippets for vari
 
 | Language | Category |
 | :--- | :--- |
-| [Assembly](asm.md) | Systems |
-| [C](c.md) | Systems |
-| [C++](cpp.md) | Systems |
-| [C#](cs.md) | Application |
-| [CSS](css.md) | Web |
-| [D](d.md) | Systems |
-| [Elixir](el.md) | Functional |
-| [Go](go.md) | Systems |
-| [Haskell](hs.md) | Functional |
-| [HTML](html.md) | Web |
-| [Java](java.md) | Application |
-| [JavaScript](js.md) | Web |
-| [JSONC](jsonc.md) | Data |
-| [Lua](lua.md) | Scripting |
-| [Plist](plist.md) | Data |
-| [Python](py.md) | Scripting |
-| [R](r.md) | Data Science |
-| [Rust](rs.md) | Systems |
-| [Shell](sh.md) | Scripting |
-| [Swift](swift.md) | Application |
-| [TOML](toml.md) | Data |
-| [TypeScript](ts.md) | Web |
-| [XML](xml.md) | Data |
-| [YAML](yaml.md) | Data |
+| [Assembly](asm.txt) | Systems |
+| [C](c.txt) | Systems |
+| [C++](cpp.txt) | Systems |
+| [C#](cs.txt) | Application |
+| [CSS](css.txt) | Web |
+| [D](d.txt) | Systems |
+| [Emacs Lisp](el.txt) | Functional |
+| [Go](go.txt) | Systems |
+| [Haskell](hs.txt) | Functional |
+| [HTML](html.txt) | Web |
+| [Java](java.txt) | Application |
+| [JavaScript](js.txt) | Web |
+| [JSONC](jsonc.txt) | Data |
+| [Lua](lua.txt) | Scripting |
+| [Plist](plist.txt) | Data |
+| [Python](py.txt) | Scripting |
+| [R](r.txt) | Data Science |
+| [Rust](rs.txt) | Systems |
+| [Shell](sh.txt) | Scripting |
+| [Swift](swift.txt) | Application |
+| [TOML](toml.txt) | Data |
+| [TypeScript](ts.txt) | Web |
+| [XML](xml.txt) | Data |
+| [YAML](yaml.txt) | Data |
 
 ## Usage
 These notes are intended for personal reference. Feel free to use them as quick-start guides or to verify syntax when context-switching between languages.
