@@ -1,0 +1,190 @@
+-- learn.lua
+-- Lua learning guide
+--
+-- This file contains comments only. It is a study guide for Lua syntax
+-- and concepts. Read the notes, then write your own Lua scripts separately.
+
+-- ------------------------------------------------------------------
+-- 1) Lua program structure
+-- ------------------------------------------------------------------
+--
+-- Lua scripts are executed top-to-bottom.
+-- There is no required main function, but you can define one:
+--   function main()
+--       -- program entry
+--   end
+--
+-- Learn how to call functions and how chunk execution works.
+
+-- ------------------------------------------------------------------
+-- 2) Variables and types
+-- ------------------------------------------------------------------
+--
+-- Lua is dynamically typed. Common types include:
+--   nil, boolean, number, string, table, function, userdata
+--
+-- Assign variables like:
+--   local x = 10
+--   name = "Alice"
+--
+-- Use local variables to limit scope and avoid global pollution.
+
+-- ------------------------------------------------------------------
+-- 3) Expressions and operators
+-- ------------------------------------------------------------------
+--
+-- Lua operators include:
+--   +, -, *, /, %, ^, //
+--   ==, ~=, <, >, <=, >=
+--   and, or, not
+--
+-- Learn arithmetic, relational, and logical expressions.
+-- Use parentheses to control evaluation order.
+
+-- ------------------------------------------------------------------
+-- 4) Control flow
+-- ------------------------------------------------------------------
+--
+-- Lua has if/then/elseif/else, while, repeat/until, and for loops.
+-- Example forms:
+--   if condition then
+--       ...
+--   elseif other then
+--       ...
+--   else
+--       ...
+--   end
+--
+--   while condition do
+--       ...
+--   end
+--
+--   repeat
+--       ...
+--   until condition
+--
+--   for i = 1, 10 do
+--       ...
+--   end
+--
+-- Learn both numeric and generic for loops.
+
+-- ------------------------------------------------------------------
+-- 5) Functions
+-- ------------------------------------------------------------------
+--
+-- Define functions with:
+--   function add(a, b)
+--       return a + b
+--   end
+--
+-- Learn how to return multiple values.
+-- Example:
+--   return x, y
+--
+-- Practice using functions as first-class values.
+
+-- ------------------------------------------------------------------
+-- 6) Tables
+-- ------------------------------------------------------------------
+--
+-- Tables are the primary data structure in Lua.
+-- Use them as arrays, dictionaries, and objects.
+--
+-- Examples:
+--   t = {1, 2, 3}
+--   person = { name = "Alice", age = 30 }
+--
+-- Learn how to index tables and iterate with pairs/ipairs.
+
+-- ------------------------------------------------------------------
+-- 7) Strings
+-- ------------------------------------------------------------------
+--
+-- Lua strings are immutable.
+-- Concatenate with ..
+-- Get string length with #.
+-- Use string.format for formatting.
+--
+-- Learn basic string library functions like string.sub and string.gsub.
+
+-- ------------------------------------------------------------------
+-- 8) Error handling
+-- ------------------------------------------------------------------
+--
+-- Lua uses pcall and xpcall for protected calls.
+-- Example:
+--   local ok, err = pcall(function()
+--       -- code that may fail
+--   end)
+--
+-- Learn how to handle runtime errors without crashing.
+
+-- ------------------------------------------------------------------
+-- 9) Input/output and modules
+-- ------------------------------------------------------------------
+--
+-- Use io.read and io.write for basic I/O.
+-- Use require to load modules.
+--
+-- Learn how to organize code into reusable modules and scripts.
+
+-- ------------------------------------------------------------------
+-- 10) Exercises to practice Lua
+-- ------------------------------------------------------------------
+--
+-- These exercises should be written in separate Lua files.
+-- Use this guide as a reference, but implement the solutions yourself.
+--
+-- Exercise 1: Basics
+-- - Write a script that prints a greeting.
+-- - Declare local and global variables.
+--
+-- Exercise 2: Arithmetic
+-- - Read two numbers from the user.
+-- - Print their sum, difference, product, and quotient.
+--
+-- Exercise 3: Control flow
+-- - Use if/then to classify a number as positive, negative, or zero.
+-- - Use a while loop to compute factorial of 5.
+--
+-- Exercise 4: Functions
+-- - Write a function that returns the max of two numbers.
+-- - Write a function that returns multiple values.
+
+-- Exercise 5: Tables
+-- - Create a table of numbers.
+-- - Iterate using ipairs and print each value.
+-- - Create a key/value table and print its fields.
+
+-- Exercise 6: Strings
+-- - Concatenate strings with ..
+-- - Format a string with string.format.
+-- - Extract a substring using string.sub.
+
+-- Exercise 7: Error handling
+-- - Use pcall to call a function that can fail.
+-- - Print a message when errors occur.
+
+-- Exercise 8: Modules
+-- - Create a module that exports one or two functions.
+-- - Require it from another script.
+
+-- Exercise 9: Iterators
+-- - Use pairs to iterate a table with string keys.
+-- - Use ipairs to iterate an array-like table.
+
+-- Exercise 10: Simple game logic
+-- - Write a small script that guesses a random number.
+-- - Use math.random and user input to play a guessing game.
+
+-- ------------------------------------------------------------------
+-- 11) Learning tips
+-- ------------------------------------------------------------------
+--
+-- Run Lua scripts with `lua filename.lua`.
+-- Keep your code small and test frequently.
+-- Use descriptive variable names.
+-- Read error messages carefully and fix the root cause.
+
+-- End of Lua learning guide.
